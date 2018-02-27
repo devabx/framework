@@ -200,7 +200,7 @@ if (!class_exists('Themosis')) {
              * Service providers.
              */
             $providers = apply_filters('themosis_service_providers', [
-                Illuminate\Routing\RoutingServiceProvier::class,
+                Illuminate\Routing\RoutingServiceProvider::class,
                 Themosis\Ajax\AjaxServiceProvider::class,
                 Themosis\Asset\AssetServiceProvider::class,
                 Themosis\Config\ConfigServiceProvider::class,
